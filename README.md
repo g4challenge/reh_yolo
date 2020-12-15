@@ -51,6 +51,13 @@ Project Organization
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 
+# TODOs
+- import DVC from Webdav Nextcloud + Coco
+
+# Sources
+
+https://github.com/AntonMu/TrainYourOwnYOLO
+
 
 --------
 
