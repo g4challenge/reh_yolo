@@ -14,6 +14,11 @@
 		}
 	},
 
+	"containerEnv": {
+		"AWS_ACCESS_KEY_ID": "rehe_yolo",
+		"AWS_SECRET_ACCESS_KEY": "j64oqbNNAosw3fdNKM2wWaSj3Ag5vA7Q"
+	},
+
 	// Set *default* container specific settings.json values on container create.
 	"settings": { 
 		"terminal.integrated.shell.linux": "/bin/bash",
