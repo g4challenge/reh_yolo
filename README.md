@@ -54,6 +54,10 @@ Project Organization
 # TODOs
 - import DVC from Webdav Nextcloud + Coco
 
+## DVC
+
+
+
 # Sources
 
 https://github.com/AntonMu/TrainYourOwnYOLO
