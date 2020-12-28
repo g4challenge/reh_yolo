@@ -1,0 +1,12 @@
+md5: b9a658c270e72edc713cb2da68b4570d
+frozen: true
+deps:
+- md5: bf0384b76877ba63cd47eba3772a43d5.dir
+  size: 1141635983
+  nfiles: 517
+  path: remote://myminio/
+outs:
+- md5: 350e96167f0ed1635883a3f31228ec96.dir
+  size: 1141635983
+  nfiles: 517
+  path: raw
