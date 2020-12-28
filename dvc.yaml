@@ -1,0 +1,4 @@
+stages:
+    images:
+      deps:
+      -  data/raw/

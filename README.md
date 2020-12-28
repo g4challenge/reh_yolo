@@ -56,6 +56,7 @@ Project Organization
 
 ## DVC
 
+dvc import-url remote://myminio/ data/raw/
 
 
 # Sources
