@@ -1,0 +1,10 @@
+md5: e87072cc63ccaf1d818a78627fdcbb17
+frozen: true
+deps:
+- etag: b68debc7eb1305ce0319eabf45fae4de
+  size: 241757
+  path: remote://myminio/rehe-2.json
+outs:
+- md5: b68debc7eb1305ce0319eabf45fae4de
+  size: 241757
+  path: rehe-2.json
