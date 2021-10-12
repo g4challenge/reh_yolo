@@ -2,8 +2,7 @@
 -e .
 
 # external requirements
-click
-Sphinx
+
 coverage
 awscli
 flake8
@@ -11,6 +10,3 @@ python-dotenv>=0.5.1
 
 # meteostat https://github.com/meteostat/meteostat-python
 meteostat
-
-# dvc
-dvc[s3]

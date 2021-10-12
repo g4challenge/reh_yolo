@@ -1,6 +1,6 @@
 # See here for image contents: https://github.com/microsoft/vscode-dev-containers/tree/v0.154.0/containers/python-3/.devcontainer/base.Dockerfile
 
-FROM docker-cuda-tf
+FROM g4challenge/cuda-python-tf
 
 # [Option] Install zsh
 ARG INSTALL_ZSH="true"
@@ -23,3 +23,4 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 COPY .devcontainer/library-scripts/python-utils.sh /tmp/library-scripts/
 RUN bash /tmp/library-scripts/python-utils.sh  && rm -rf /tmp/library-scripts
 
+ENTRYPOINT ["poetry shell"]

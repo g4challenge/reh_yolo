@@ -5,9 +5,12 @@ description = ""
 authors = ["Lukas <lukas.huber@fh-kufstein.ac.at>"]
 
 [tool.poetry.dependencies]
-python = ">=3.8,<3.9"
+python = ">=3.8"
 dvc = "^2.6.4"
-kedro = {git = "https://github.com/quantumblacklabs/kedro"}
+ExifRead = "^2.3.2"
+ipykernel = "^6.4.1"
+click = "^8.0.3"
+Sphinx = "^4.2.0"
 
 [tool.poetry.dev-dependencies]
 
