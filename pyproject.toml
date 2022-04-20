@@ -11,6 +11,7 @@ ExifRead = "^2.3.2"
 ipykernel = "^6.4.1"
 click = "^8.0.3"
 Sphinx = "^4.2.0"
+label-studio = "^1.4"
 
 [tool.poetry.dev-dependencies]
 
