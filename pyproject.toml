@@ -5,7 +5,7 @@ description = ""
 authors = ["Lukas <lukas.huber@fh-kufstein.ac.at>"]
 
 [tool.poetry.dependencies]
-python = ">=3.8"
+python = ">=3.6"
 dvc = "^2.6.4"
 ExifRead = "^2.3.2"
 ipykernel = "^6.4.1"

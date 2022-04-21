@@ -1,6 +1,8 @@
 # See here for image contents: https://github.com/microsoft/vscode-dev-containers/tree/v0.154.0/containers/python-3/.devcontainer/base.Dockerfile
 
-FROM g4challenge/cuda-python-tf
+#FROM g4challenge/cuda-python-tf
+ARG VARIANT="3.10-bullseye"
+FROM mcr.microsoft.com/vscode/devcontainers/python:0-${VARIANT}    
 
 # [Option] Install zsh
 ARG INSTALL_ZSH="true"
