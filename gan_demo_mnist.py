@@ -1,17 +1,20 @@
 #https://github.com/MonteChristo46/GAN-Notebooks/blob/master/GAN.ipynb
 #https://towardsdatascience.com/demystifying-gans-in-tensorflow-2-0-9890834ab3d9
 
+#%%
 import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
 from tensorflow import keras
 
+#%%
 BATCH_SIZE = 256
 BUFFER_SIZE= 60000
 EPOCHS = 100
 
 OUTPUT_DIR = "img"
 
+#%% Dataset
 mnist = keras.datasets.mnist
 (train_images, train_labels), (test_images, test_labels) = mnist.load_data()
 print(train_images.shape)
@@ -20,7 +23,7 @@ plt.imshow(train_images[1], cmap = "gray")
 
 
 
-
+#%%
 train_images = train_images.astype("float32")
 train_images = (train_images - 127.5) / 127.5
 

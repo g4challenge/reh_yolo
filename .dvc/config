@@ -3,3 +3,5 @@
 ['remote "myminio"']
     url = s3://reh/
     endpointurl = https://minio.g4challenge.duckdns.org
+['remote "dagshub"']
+    url = https://dagshub.com/g4challenge/reh_yolo.dvc
