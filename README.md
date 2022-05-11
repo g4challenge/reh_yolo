@@ -1,5 +1,30 @@
-reh_yolo
+Roe Deer Classifier using Jetson Nano
 ==============================
+
+This repository follows the Cookiecutter Template, Poetry, DVC and Conventional Commits.
+
+# TODOs
+- import DVC from Google Drive
+- Setup Label-Studio
+
+## DVC
+
+dvc import-url remote://myminio/ data/raw/
+
+
+
+### M1 MAX Setup
+
+```
+pip install tensorflow-aarch64 -f https://tf.kmtea.eu/whl/stable.html
+```
+
+### Label-Studio
+
+```
+label-studio init reh_yolo
+label-studio start --data-dir
+```
 
 classifying camera traps
 
@@ -51,12 +76,6 @@ Project Organization
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 
-# TODOs
-- import DVC from Webdav Nextcloud + Coco
-
-## DVC
-
-dvc import-url remote://myminio/ data/raw/
 
 
 # Sources
