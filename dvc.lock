@@ -1,0 +1,9 @@
+schema: '2.0'
+stages:
+  images:
+    cmd: python --version
+    deps:
+    - path: data/raw/
+      md5: 4164b6d7226b0140ff93b5d1a3ba0a93.dir
+      size: 1904917
+      nfiles: 2
