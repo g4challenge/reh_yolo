@@ -76,7 +76,8 @@ target/
 .ipynb_checkpoints/
 
 # do not exclude data from source control by default as used by dvc
-/data/
+/data/*
+!data/*.dvc
 
 # Mac OS-specific storage files
 .DS_Store
