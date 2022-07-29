@@ -25,4 +25,6 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 COPY .devcontainer/library-scripts/python-utils.sh /tmp/library-scripts/
 RUN bash /tmp/library-scripts/python-utils.sh  && rm -rf /tmp/library-scripts
 
+RUN pip install poetry
+
 ENTRYPOINT ["poetry shell"]

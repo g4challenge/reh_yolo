@@ -3,14 +3,25 @@ Roe Deer Classifier using Jetson Nano
 
 This repository follows the Cookiecutter Template, Poetry, DVC and Conventional Commits.
 
+The Goal of this repository is to demonstrate the detection of roe deer in an image.
+
 # TODOs
 - import DVC from Google Drive
+- import DVC from Kaggle
 - Setup Label-Studio
+  - Notebooks `semi automated labelstudio`
 
+- Yolov6
+  - https://dagshub.com/blog/yolov6/
+  - https://yolov6.dagshubusercontent.com/
+- Tracking MLFLow
+- DagsHub
+- Deployment BentoML
 ## DVC
 
+```
 dvc import-url remote://myminio/ data/raw/
-
+```
 
 
 ### M1 MAX Setup

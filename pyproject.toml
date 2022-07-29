@@ -1,17 +1,21 @@
 [tool.poetry]
-name = "reh_yolo"
+name = "rehyolo"
 version = "0.1.0"
 description = ""
 authors = ["Lukas <lukas.huber@fh-kufstein.ac.at>"]
 
 [tool.poetry.dependencies]
-python = ">=3.6"
+python = ">=3.8,<3.11"
 dvc = "^2.6.4"
 ExifRead = "^2.3.2"
 ipykernel = "^6.4.1"
 click = "^8.0.3"
 Sphinx = "^4.2.0"
 label-studio = "^1.4"
+opencv-python = "^4.6.0"
+label-studio-ml = "^1.0.7"
+tensorflow-aarch64 ="2.9.1"
+tf-models-official = "2.9.1"
 
 [tool.poetry.dev-dependencies]
 
